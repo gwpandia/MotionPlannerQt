@@ -1,0 +1,31 @@
+#DESCRIPTION_OF_POLYGONS
+#Number of Obstacle
+1
+#Obstacle #0
+#Number of Polygons
+2
+#Polygon #0
+#Number of Vertices
+3
+#------------
+-0.103893206 6.0259743
+-1.9740257 0.20779777
+1.9740258 0.20779777
+#Polygon #1
+#Number of Vertices
+4
+#------------
+-0.5194816 0.20779014
+-0.5194816 -6.0259743
+0.7272759 -6.0259743
+0.7272759 0.20779014
+# initial configuraion
+10.0 110.0 180.0
+# goal configuration 
+110.0 5.0 270
+# number of control points
+2
+# control point #1
+0 5
+# control point #2
+0 -3

@@ -1,0 +1,548 @@
+#number of obstacle
+42
+# obstacle 0
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.0 127.5
+8.0 0.25
+9.75 0.25
+9.75 127.5
+#configuration
+118.0 -0.25 0.0
+# obstacle 1
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+0.25 127.5
+0.25 125.75
+127.75 125.75
+127.75 127.5
+#configuration
+0.0 -125.75 0.0
+# obstacle 2
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+0.25 127.5
+0.25 125.75
+127.75 125.75
+127.75 127.5
+#configuration
+0.0 0.0 0.0
+# obstacle 3
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+0.25 127.5
+0.25 125.75
+127.75 125.75
+127.75 127.5
+#configuration
+0.0 0.0 0.0
+# obstacle 4
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.0 127.5
+8.0 0.25
+9.75 0.25
+9.75 127.5
+#configuration
+-7.75 0.0 0.0
+# obstacle 5
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+4.75 59.25
+4.75 58.5
+6.25 58.5
+6.25 59.25
+#configuration
+101.5 -49.25 0.0
+# obstacle 6
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 61.25
+8.75 58.5
+9.5 58.5
+9.5 61.25
+#configuration
+96.75 -51.25 0.0
+# obstacle 7
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+4.75 59.25
+4.75 58.5
+6.25 58.5
+6.25 59.25
+#configuration
+101.5 -51.25 0.0
+# obstacle 8
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 61.25
+8.75 58.5
+9.5 58.5
+9.5 61.25
+#configuration
+107.0 -51.25 0.0
+# obstacle 9
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 61.25
+8.75 58.5
+9.5 58.5
+9.5 61.25
+#configuration
+109.5 -51.25 0.0
+# obstacle 10
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+108.25 -50.75 0.0
+# obstacle 11
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 59.5
+8.25 59.5
+8.25 57.75
+8.75 57.75
+#configuration
+108.75 -49.5 0.0
+# obstacle 12
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+108.25 -49.5 0.0
+# obstacle 13
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+100.25 -51.75 0.0
+# obstacle 14
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 59.5
+8.25 59.5
+8.25 57.75
+8.75 57.75
+#configuration
+100.75 -50.5 0.0
+# obstacle 15
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+100.25 -50.5 0.0
+# obstacle 16
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 61.25
+8.75 58.5
+9.5 58.5
+9.5 61.25
+#configuration
+99.0 -51.25 0.0
+# obstacle 17
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 61.25
+8.75 58.5
+9.5 58.5
+9.5 61.25
+#configuration
+101.75 -51.25 0.0
+# obstacle 18
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 61.25
+8.75 58.5
+9.5 58.5
+9.5 61.25
+#configuration
+112.0 -51.25 0.0
+# obstacle 19
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+110.75 -50.75 0.0
+# obstacle 20
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 59.5
+8.25 59.5
+8.25 57.75
+8.75 57.75
+#configuration
+111.25 -49.5 0.0
+# obstacle 21
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+110.75 -49.5 0.0
+# obstacle 22
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 61.25
+8.75 58.5
+9.5 58.5
+9.5 61.25
+#configuration
+114.5 -51.25 0.0
+# obstacle 23
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+113.25 -50.75 0.0
+# obstacle 24
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+8.75 59.5
+8.25 59.5
+8.25 57.75
+8.75 57.75
+#configuration
+113.75 -49.5 0.0
+# obstacle 25
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+10.25 59.5
+8.75 59.5
+8.75 59.0
+10.0 59.0
+#configuration
+113.25 -49.5 0.0
+# obstacle 26
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+37.75 41.75
+37.0 41.5
+38.0 40.25
+38.5 40.75
+#configuration
+74.75 -32.5 0.0
+# obstacle 27
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+99.75 19.0
+98.0 16.0
+98.75 15.75
+100.75 19.0
+#configuration
+13.75 -9.75 0.0
+# obstacle 28
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+16.25 101.25
+16.25 12.0
+20.75 12.0
+20.75 101.25
+#configuration
+2.0 4.5 0.0
+# obstacle 29
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+20.75 12.0
+104.5 12.0
+104.5 15.75
+20.75 15.75
+#configuration
+4.0 4.25 0.0
+# obstacle 30
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+59.5 89.5
+59.5 74.5
+65.5 74.5
+65.5 89.5
+#configuration
+12.0106541872292 -29.0458518350097 0.08471348402501207
+# obstacle 31
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+59.5 89.5
+59.5 74.5
+65.5 74.5
+65.5 89.5
+#configuration
+11.850160329000694 1.3971301982211628 359.6818186135389
+# obstacle 32
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+59.5 89.5
+59.5 74.5
+65.5 74.5
+65.5 89.5
+#configuration
+5.588201712766761 129.63886371158435 269.8876750899532
+# obstacle 33
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+59.5 89.5
+59.5 74.5
+65.5 74.5
+65.5 89.5
+#configuration
+-20.78374281214252 130.12079119607503 270.0022377772099
+# obstacle 34
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+100.0 99.5
+43.25 99.5
+43.25 95.5
+100.0 95.5
+#configuration
+1.5 -64.5 0.0
+# obstacle 35
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+62.25 64.75
+62.25 60.5
+66.5 60.5
+66.5 64.75
+#configuration
+0.44735835219961473 160.19874746133758 270.04687138199404
+# obstacle 36
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+48.25 96.25
+48.25 91.75
+92.75 91.75
+92.75 96.25
+#configuration
+16.5 11.25 0.0
+# obstacle 37
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+29.5 91.75
+29.5 35.25
+33.75 35.25
+33.75 91.75
+#configuration
+78.0 0.75 0.0
+# obstacle 38
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+59.5 89.5
+59.5 74.5
+65.5 74.5
+65.5 89.5
+#configuration
+-59.681436970392525 102.50050127960772 313.85804267321095
+# obstacle 39
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+29.5 91.75
+29.5 35.25
+33.75 35.25
+33.75 91.75
+#configuration
+8.75 9.25 0.0
+# obstacle 40
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+96.0 88.5
+96.0 85.75
+99.0 85.75
+99.0 88.5
+#configuration
+-0.5 1.75 0.0
+# obstacle 41
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+96.0 88.5
+96.0 85.75
+99.0 85.75
+99.0 88.5
+#configuration
+-0.5 1.75 0.0

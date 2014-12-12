@@ -1,0 +1,1422 @@
+#Description of Polygons
+#Number of Obstacle
+108
+#Obstacle #0
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+0.9267683 3.9028473
+-2.9737377 -2.692215
+-0.9267683 -3.9028473
+2.9737377 2.692215
+#Initial Configuration
+9.596232 103.59254 0
+#Obstacle #1
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9998903 1.014885
+2.8368607 -2.9976044
+3.9998894 -1.0148926
+-2.8368626 2.9976044
+#Initial Configuration
+14.997322 100.205765 0
+#Obstacle #2
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+0.97382164 3.8904495
+-3.006853 -2.656578
+-0.97382164 -3.8904572
+3.006853 2.656578
+#Initial Configuration
+11.212029 95.233536 0
+#Obstacle #3
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9840078 1.0802994
+2.786725 -3.0425339
+3.9840078 -1.0802994
+-2.7867255 3.0425415
+#Initial Configuration
+6.191559 98.88306 0
+#Obstacle #4
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890888 3.8310852
+-1.1890888 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+30.189053 118.13399 0
+#Obstacle #5
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626434
+3.967739 -1.1360016
+3.9594727 1.1626358
+-3.9677353 1.135994
+#Initial Configuration
+36.562004 117.96837 0
+#Obstacle #6
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422768 3.844368
+-1.235733 -3.8172684
+1.1422806 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+35.835052 111.76167 0
+#Obstacle #7
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790974 -1.0982513
+3.9474564 -1.2001953
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+29.655952 112.347206 0
+#Obstacle #8
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890907 3.8310852
+-1.1890907 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+47.612633 112.02044 0
+#Obstacle #9
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9594688 -1.1626358
+3.9677353 -1.135994
+3.9594688 1.1626434
+-3.967739 1.1360016
+#Initial Configuration
+53.985588 111.85481 0
+#Obstacle #10
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422768 3.844368
+-1.235733 -3.8172684
+1.1422806 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+53.258633 105.648125 0
+#Obstacle #11
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474564 -1.2001953
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+47.079533 106.23366 0
+#Obstacle #12
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310852
+-1.1890869 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+68.70433 117.52262 0
+#Obstacle #13
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626358
+3.967743 -1.135994
+3.9594727 1.1626434
+-3.9677353 1.1360016
+#Initial Configuration
+75.077286 117.356995 0
+#Obstacle #14
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.142273 3.844368
+-1.235733 -3.8172684
+1.1422806 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+74.350334 111.15031 0
+#Obstacle #15
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474564 -1.2001953
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+68.171234 111.73584 0
+#Obstacle #16
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310852
+-1.1890869 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+87.96196 111.71476 0
+#Obstacle #17
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626358
+3.967743 -1.135994
+3.9594727 1.1626434
+-3.9677353 1.1360016
+#Initial Configuration
+94.334915 111.54913 0
+#Obstacle #18
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.142273 3.844368
+-1.235733 -3.8172684
+1.1422806 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+93.60796 105.342445 0
+#Obstacle #19
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474564 -1.2001953
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+87.42886 105.92798 0
+#Obstacle #20
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.8783722 1.0243835
+2.616768 -3.0403442
+3.8783722 -1.0243912
+-2.616768 3.0403366
+#Initial Configuration
+116.27438 97.963684 0
+#Obstacle #21
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1149216 -3.9731674
+3.0678253 2.7607727
+1.1149063 3.973175
+-3.067833 -2.760765
+#Initial Configuration
+119.79559 103.27811 0
+#Obstacle #22
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.8647995 1.071106
+2.580307 -3.0725555
+3.8647919 -1.0711212
+-2.5803146 3.072548
+#Initial Configuration
+124.671295 99.36928 0
+#Obstacle #23
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1799088 -3.955658
+3.1114883 2.7095184
+1.1799011 3.9556503
+-3.111496 -2.709526
+#Initial Configuration
+120.89697 94.44194 0
+#Obstacle #24
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9328442 0.7898483
+2.794464 -2.8778687
+3.932846 -0.7898483
+-2.7944622 2.8778687
+#Initial Configuration
+20.04044 89.76236 0
+#Obstacle #25
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.8745308 -4.0329056
+2.8966656 2.9398575
+0.874527 4.0329056
+-2.8966675 -2.9398575
+#Initial Configuration
+23.236454 95.27847 0
+#Obstacle #26
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9221 0.83730316
+2.760004 -2.9122086
+3.9221 -0.8373108
+-2.760004 2.912201
+#Initial Configuration
+28.33789 91.669205 0
+#Obstacle #27
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.9404526 -4.0193176
+2.9433231 2.8913193
+0.9404545 4.0193176
+-2.9433212 -2.8913193
+#Initial Configuration
+24.86599 86.52429 0
+#Obstacle #28
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9664955 0.5983658
+2.9306183 -2.73909
+3.9664955 -0.5983658
+-2.930622 2.73909
+#Initial Configuration
+50.761787 90.51358 0
+#Obstacle #29
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.6780968 -4.0705414
+2.750824 3.0767517
+0.6781006 4.0705414
+-2.7508202 -3.0767517
+#Initial Configuration
+53.686775 96.17807 0
+#Obstacle #30
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9580612 0.64629364
+2.8978653 -2.775055
+3.958065 -0.64629364
+-2.8978653 2.775055
+#Initial Configuration
+58.9571 92.82021 0
+#Obstacle #31
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.7446022 -4.0601654
+2.7997742 3.0305328
+0.744606 4.0601654
+-2.7997742 -3.0305328
+#Initial Configuration
+55.73856 87.51313 0
+#Obstacle #32
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.8285294 1.1972961
+2.4777756 -3.1546478
+3.8285217 -1.1973038
+-2.4777756 3.1546402
+#Initial Configuration
+69.25049 89.01338 0
+#Obstacle #33
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.2919922 -3.9191742
+3.1885605 2.6203918
+1.2919922 3.9191666
+-3.1885605 -2.6203995
+#Initial Configuration
+73.0065 94.164536 0
+#Obstacle #34
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.8128662 1.24337
+2.439911 -3.1851883
+3.8128738 -1.2433777
+-2.4399033 3.1851807
+#Initial Configuration
+77.70198 90.040955 0
+#Obstacle #35
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.3561325 -3.898758
+3.2298813 2.5672379
+1.3561249 3.8987503
+-3.2298813 -2.5672455
+#Initial Configuration
+73.71047 85.28786 0
+#Obstacle #36
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.932846 0.7898483
+2.794464 -2.8778687
+3.932846 -0.7898483
+-2.794464 2.8778687
+#Initial Configuration
+86.15993 91.01867 0
+#Obstacle #37
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.8745346 -4.0329056
+2.8966675 2.9398575
+0.874527 4.0329056
+-2.8966675 -2.9398575
+#Initial Configuration
+89.96729 96.84046 0
+#Obstacle #38
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9220963 0.8373108
+2.7600098 -2.912201
+3.922104 -0.83730316
+-2.7600021 2.9122086
+#Initial Configuration
+95.068726 93.231186 0
+#Obstacle #39
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.9404602 -4.0193176
+2.9433212 2.8913193
+0.9404526 4.0193176
+-2.9433289 -2.8913193
+#Initial Configuration
+91.59683 88.08628 0
+#Obstacle #40
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890879 3.8310852
+-1.1890879 -3.8310852
+1.1890879 -3.8310852
+1.1890879 3.8310852
+#Initial Configuration
+12.765471 68.92 0
+#Obstacle #41
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9594688 -1.1626434
+3.9677372 -1.1360016
+3.9594688 1.1626358
+-3.9677372 1.135994
+#Initial Configuration
+19.138428 68.75438 0
+#Obstacle #42
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422787 3.844368
+-1.235733 -3.8172684
+1.1422768 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+18.411474 62.547684 0
+#Obstacle #43
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790964 -1.0982513
+3.9474545 -1.2001915
+3.9790955 1.0982513
+-3.9474554 1.2001953
+#Initial Configuration
+12.232372 63.133217 0
+#Obstacle #44
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890888 3.8310852
+-1.1890888 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+29.272022 74.72787 0
+#Obstacle #45
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9594688 -1.1626358
+3.9677353 -1.135994
+3.9594688 1.1626434
+-3.9677372 1.1360016
+#Initial Configuration
+35.644978 74.56224 0
+#Obstacle #46
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422768 3.844368
+-1.235733 -3.8172684
+1.1422806 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+34.918022 68.35555 0
+#Obstacle #47
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474564 -1.2001953
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+28.738922 68.941086 0
+#Obstacle #48
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890907 3.8310852
+-1.1890907 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+53.726173 68.61432 0
+#Obstacle #49
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9594688 -1.1626434
+3.9677353 -1.1360016
+3.959465 1.1626358
+-3.967739 1.135994
+#Initial Configuration
+60.09913 68.4487 0
+#Obstacle #50
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422768 3.844368
+-1.235733 -3.8172684
+1.1422806 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+59.372173 62.242004 0
+#Obstacle #51
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474564 -1.2001915
+3.9790955 1.0982552
+-3.9474564 1.2001953
+#Initial Configuration
+53.193073 62.827538 0
+#Obstacle #52
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310852
+-1.1890869 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+69.31569 74.42218 0
+#Obstacle #53
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626434
+3.9677353 -1.1360016
+3.959465 1.1626358
+-3.9677353 1.135994
+#Initial Configuration
+75.688644 74.25656 0
+#Obstacle #54
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422806 3.844368
+-1.235733 -3.8172684
+1.142273 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+74.96169 68.049866 0
+#Obstacle #55
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.979103 -1.0982513
+3.9474487 -1.2001953
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+68.78259 68.6354 0
+#Obstacle #56
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310776
+-1.1890869 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310776
+#Initial Configuration
+96.52093 68.61432 0
+#Obstacle #57
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626358
+3.9677353 -1.135994
+3.959465 1.1626358
+-3.9677353 1.1360016
+#Initial Configuration
+102.89388 68.44869 0
+#Obstacle #58
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422806 3.844368
+-1.235733 -3.8172646
+1.142273 -3.8443642
+1.235733 3.8172684
+#Initial Configuration
+102.16693 62.241997 0
+#Obstacle #59
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982552
+3.9474564 -1.2001953
+3.979103 1.0982513
+-3.9474487 1.2001953
+#Initial Configuration
+95.98782 62.827538 0
+#Obstacle #60
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310852
+-1.1890869 -3.8310776
+1.1890869 -3.8310776
+1.1890869 3.8310852
+#Initial Configuration
+112.72181 74.42218 0
+#Obstacle #61
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626358
+3.9677353 -1.135994
+3.959465 1.1626358
+-3.9677353 1.1360016
+#Initial Configuration
+119.094765 74.25656 0
+#Obstacle #62
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422806 3.844368
+-1.235733 -3.8172684
+1.142273 -3.8443604
+1.235733 3.8172684
+#Initial Configuration
+118.36781 68.049866 0
+#Obstacle #63
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474564 -1.2001953
+3.979103 1.0982513
+-3.9474487 1.2001953
+#Initial Configuration
+112.188705 68.63541 0
+#Obstacle #64
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890883 3.8310852
+-1.1890883 -3.8310852
+1.1890879 -3.8310852
+1.1890879 3.8310852
+#Initial Configuration
+8.180317 32.238773 0
+#Obstacle #65
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959468 -1.1626377
+3.9677372 -1.1359978
+3.9594688 1.1626396
+-3.9677362 1.1359978
+#Initial Configuration
+14.553272 32.07315 0
+#Obstacle #66
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422777 3.844368
+-1.235733 -3.8172684
+1.1422777 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+13.82632 25.866459 0
+#Obstacle #67
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790964 -1.0982533
+3.9474554 -1.2001953
+3.9790964 1.0982513
+-3.9474556 1.2001934
+#Initial Configuration
+7.6472178 26.451996 0
+#Obstacle #68
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310814
+-1.1890869 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310814
+#Initial Configuration
+41.80477 36.82393 0
+#Obstacle #69
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9594688 -1.1626358
+3.967739 -1.135994
+3.9594688 1.1626396
+-3.9677353 1.1360016
+#Initial Configuration
+48.177727 36.658302 0
+#Obstacle #70
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422806 3.844368
+-1.235733 -3.8172665
+1.1422768 -3.844366
+1.235733 3.8172684
+#Initial Configuration
+47.450775 30.45161 0
+#Obstacle #71
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474564 -1.2001934
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+41.27167 31.037148 0
+#Obstacle #72
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310852
+-1.1890869 -3.8310814
+1.1890869 -3.8310814
+1.1890869 3.8310852
+#Initial Configuration
+72.67815 37.1296 0
+#Obstacle #73
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626396
+3.9677353 -1.1359978
+3.9594727 1.1626358
+-3.9677353 1.1359978
+#Initial Configuration
+79.0511 36.96398 0
+#Obstacle #74
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422806 3.844368
+-1.235733 -3.8172665
+1.142273 -3.844366
+1.235733 3.8172684
+#Initial Configuration
+78.32415 30.757286 0
+#Obstacle #75
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982513
+3.9474487 -1.2001934
+3.9790955 1.0982513
+-3.9474564 1.2001953
+#Initial Configuration
+72.14505 31.342823 0
+#Obstacle #76
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1890869 3.8310852
+-1.1890869 -3.8310852
+1.1890869 -3.8310852
+1.1890869 3.8310852
+#Initial Configuration
+112.7218 33.461483 0
+#Obstacle #77
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.959465 -1.1626358
+3.9677353 -1.1359978
+3.9594727 1.1626396
+-3.9677353 1.1359978
+#Initial Configuration
+119.09476 33.29586 0
+#Obstacle #78
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.1422806 3.844368
+-1.235733 -3.8172684
+1.142273 -3.844368
+1.235733 3.8172684
+#Initial Configuration
+118.367805 27.089169 0
+#Obstacle #79
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9790955 -1.0982533
+3.9474487 -1.2001953
+3.9790955 1.0982513
+-3.9474564 1.2001934
+#Initial Configuration
+112.188705 27.674706 0
+#Obstacle #80
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.932845 0.78985214
+2.794464 -2.8778648
+3.932846 -0.78985214
+-2.7944622 2.8778648
+#Initial Configuration
+19.828045 47.89803 0
+#Obstacle #81
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.8745308 -4.0329056
+2.8966656 2.9398537
+0.874527 4.0329056
+-2.8966675 -2.9398575
+#Initial Configuration
+23.02406 53.414143 0
+#Obstacle #82
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9221 0.8373108
+2.760004 -2.9122047
+3.9221 -0.837307
+-2.760004 2.9122086
+#Initial Configuration
+28.125496 49.80487 0
+#Obstacle #83
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.9404526 -4.0193176
+2.9433231 2.8913193
+0.9404545 4.0193176
+-2.9433212 -2.8913193
+#Initial Configuration
+24.653595 44.659966 0
+#Obstacle #84
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9664955 0.5983696
+2.9306183 -2.73909
+3.9664955 -0.5983696
+-2.930622 2.73909
+#Initial Configuration
+49.938034 48.343575 0
+#Obstacle #85
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.6780968 -4.0705414
+2.750824 3.0767517
+0.6781006 4.0705414
+-2.7508202 -3.0767517
+#Initial Configuration
+52.86302 54.008064 0
+#Obstacle #86
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9580612 0.6462898
+2.8978653 -2.7750587
+3.958065 -0.6462898
+-2.8978653 2.7750587
+#Initial Configuration
+58.133347 50.650208 0
+#Obstacle #87
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.7446022 -4.0601654
+2.7997742 3.0305328
+0.744606 4.0601616
+-2.7997742 -3.0305367
+#Initial Configuration
+54.914806 45.343124 0
+#Obstacle #88
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.8285217 1.1973
+2.4777832 -3.154644
+3.8285294 -1.1973038
+-2.477768 3.1546402
+#Initial Configuration
+69.038086 49.288788 0
+#Obstacle #89
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.2919922 -3.9191704
+3.1885605 2.6203995
+1.2919922 3.9191704
+-3.1885605 -2.6203995
+#Initial Configuration
+72.794106 54.439938 0
+#Obstacle #90
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.8128738 1.24337
+2.4399033 -3.1851883
+3.8128662 -1.2433739
+-2.439911 3.1851845
+#Initial Configuration
+77.48959 50.31636 0
+#Obstacle #91
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.3561325 -3.8987541
+3.2298813 2.5672417
+1.3561249 3.8987541
+-3.2298813 -2.5672455
+#Initial Configuration
+73.49808 45.56326 0
+#Obstacle #92
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.932846 0.78985214
+2.794464 -2.8778648
+3.932846 -0.78985214
+-2.794464 2.8778648
+#Initial Configuration
+99.09164 46.708923 0
+#Obstacle #93
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.8745346 -4.0329056
+2.8966675 2.9398537
+0.874527 4.0329056
+-2.8966675 -2.9398575
+#Initial Configuration
+102.28765 52.225037 0
+#Obstacle #94
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9220963 0.837307
+2.7600098 -2.9122086
+3.922104 -0.8373108
+-2.7600021 2.9122047
+#Initial Configuration
+107.389084 48.61577 0
+#Obstacle #95
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.9404602 -4.0193176
+2.9433212 2.8913193
+0.9404526 4.0193176
+-2.9433289 -2.8913193
+#Initial Configuration
+103.91719 43.47086 0
+#Obstacle #96
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.932845 0.78985023
+2.794464 -2.8778667
+3.932846 -0.78985214
+-2.7944622 2.8778658
+#Initial Configuration
+18.911009 12.133835 0
+#Obstacle #97
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.8745289 -4.0329056
+2.8966675 2.9398537
+0.8745289 4.0329037
+-2.8966656 -2.9398565
+#Initial Configuration
+22.107021 17.649948 0
+#Obstacle #98
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9221 0.8373089
+2.760004 -2.9122076
+3.9221 -0.8373089
+-2.760004 2.9122076
+#Initial Configuration
+27.20846 14.040677 0
+#Obstacle #99
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.9404545 -4.019318
+2.9433212 2.8913183
+0.9404526 4.0193167
+-2.9433231 -2.8913198
+#Initial Configuration
+23.73656 8.895771 0
+#Obstacle #100
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.8285255 1.1973009
+2.4777756 -3.1546435
+3.8285255 -1.1973009
+-2.4777718 3.154643
+#Initial Configuration
+55.588303 9.245115 0
+#Obstacle #101
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.2919884 -3.9191685
+3.1885643 2.6203995
+1.2919922 3.9191685
+-3.1885605 -2.6203976
+#Initial Configuration
+59.344315 14.396267 0
+#Obstacle #102
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.81287 1.2433729
+2.439911 -3.1851869
+3.8128738 -1.243372
+-2.439911 3.1851873
+#Initial Configuration
+64.0398 10.272687 0
+#Obstacle #103
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-1.3561287 -3.8987536
+3.2298813 2.5672436
+1.3561287 3.8987532
+-3.2298813 -2.5672443
+#Initial Configuration
+60.048286 5.5195885 0
+#Obstacle #104
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.932846 0.7898512
+2.794464 -2.8778658
+3.932846 -0.7898512
+-2.794464 2.8778667
+#Initial Configuration
+95.4235 11.55608 0
+#Obstacle #105
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.874527 -4.0329046
+2.8966675 2.9398556
+0.874527 4.0329037
+-2.8966675 -2.9398556
+#Initial Configuration
+98.619514 17.072193 0
+#Obstacle #106
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-3.9220963 0.8373089
+2.7600098 -2.9122076
+3.922104 -0.8373089
+-2.7600021 2.9122066
+#Initial Configuration
+103.72095 13.462923 0
+#Obstacle #107
+#Number of Polygons
+1
+#Polygon #0
+#Number of Vertices
+4
+#------------
+-0.9404602 -4.019317
+2.9433212 2.8913193
+0.9404526 4.0193176
+-2.9433289 -2.8913188
+#Initial Configuration
+100.249054 8.318016 0
+
+#Bound (Offset_x Offset_y Width Length)
+0  0 128.0 128.0
+#Height
+0
+#Number of Places
+0
+#Number of Walls
+0
+#Number of Blocks
+0
+#Number of Stairs
+-1 -1 null
+60 20 null
+#X Y Width Height Description

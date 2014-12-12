@@ -1,0 +1,22 @@
+# number of robots
+1
+# robot #1
+# number of polygons
+1
+# polygon #0
+# number of vertices
+3
+# vertices
+-5.000000 -5.000000
+5.000000 -5.000000
+0.000000 5.000000
+# initial configuration
+20.000000 20.000000 0.000000
+# goal configuration
+30.000000 100.000000 0.000000
+# number of control points
+2 
+# control point #1
+0.000000 -4.000000
+# control point #1
+0.000000 4.000000

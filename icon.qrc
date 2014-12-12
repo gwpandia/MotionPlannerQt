@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/imlogo">
+        <file>im-logo2.png</file>
+    </qresource>
+</RCC>

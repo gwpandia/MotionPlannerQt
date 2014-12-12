@@ -1,0 +1,886 @@
+#number of obstacle
+68
+# obstacle 0
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+10.666668891906738 30.0 0.0
+# obstacle 1
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+-1.9999990463256836 -20.333332061767578 0.0
+# obstacle 2
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+16.999999046325684 -21.333335876464844 0.0
+# obstacle 3
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+23.666666984558105 -68.33333015441895 0.0
+# obstacle 4
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+36.999999046325684 12.666679382324219 0.0
+# obstacle 5
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+0.33333396911621094 20.0 0.0
+# obstacle 6
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+31.666666984558105 -31.333332061767578 0.0
+# obstacle 7
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+3.6666669845581055 -73.66666889190674 0.0
+# obstacle 8
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+62.00000286102295 -74.66666889190674 0.0
+# obstacle 9
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+79.00000095367432 27.333335876464844 0.0
+# obstacle 10
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+23.000000953674316 -12.666656494140625 0.0
+# obstacle 11
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+-7.333336353302002 -6.3333282470703125 0.0
+# obstacle 12
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+-8.666668176651001 33.333343505859375 0.0
+# obstacle 13
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+3.33333158493042 -46.666656494140625 0.0
+# obstacle 14
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+64.99999713897705 -9.33331298828125 0.0
+# obstacle 15
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+39.66666507720947 -70.99999237060547 0.0
+# obstacle 16
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+54.66666889190674 -3.3333282470703125 0.0
+# obstacle 17
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+12.333333015441895 4.0 0.0
+# obstacle 18
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+21.333333015441895 16.0 0.0
+# obstacle 19
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+74.00000476837158 -32.99999237060547 0.0
+# obstacle 20
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+28.33332920074463 -84.33332300186157 0.0
+# obstacle 21
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+101.3333330154419 -21.666664123535156 0.0
+# obstacle 22
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+45.99999713897705 -29.333328247070312 0.0
+# obstacle 23
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+98.33332920074463 33.00000762939453 0.0
+# obstacle 24
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+14.333331108093262 -33.33332824707031 0.0
+# obstacle 25
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+-6.66666841506958 9.000007629394531 0.0
+# obstacle 26
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+50.333333015441895 7.666679382324219 0.0
+# obstacle 27
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+75.33332920074463 -2.3333206176757812 0.0
+# obstacle 28
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+92.3333330154419 -46.66666030883789 0.0
+# obstacle 29
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+83.99999713897705 13.000007629394531 0.0
+# obstacle 30
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+12.333331108093262 -62.33332633972168 0.0
+# obstacle 31
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+70.3333330154419 -66.33332633972168 0.0
+# obstacle 32
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+60.000000953674316 -22.99999237060547 0.0
+# obstacle 33
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+59.66666126251221 -43.666656494140625 0.0
+# obstacle 34
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+23.33332920074463 -47.99999237060547 0.0
+# obstacle 35
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+88.3333330154419 -29.99999237060547 0.0
+# obstacle 36
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+84.3333330154419 -68.33332633972168 0.0
+# obstacle 37
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+29.99999713897705 1.6666793823242188 0.0
+# obstacle 38
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+33.99999713897705 -59.99999237060547 0.0
+# obstacle 39
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+80.33334064483643 -54.33332824707031 0.0
+# obstacle 40
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+69.6666612625122 12.000011444091797 0.0
+# obstacle 41
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+106.3333330154419 -40.666656494140625 0.0
+# obstacle 42
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+107.33332920074463 -80.33332443237305 0.0
+# obstacle 43
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+40.333333015441895 31.66667938232422 0.0
+# obstacle 44
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+110.66666889190674 25.666675567626953 0.0
+# obstacle 45
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+106.66666889190674 -64.33332252502441 0.0
+# obstacle 46
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+88.66666889190674 -80.33332443237305 0.0
+# obstacle 47
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+-8.333333730697632 -64.99999046325684 0.0
+# obstacle 48
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+9.333331108093262 -85.666659116745 0.0
+# obstacle 49
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+111.99999713897705 -24.666656494140625 0.0
+# obstacle 50
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+-7.333333492279053 -35.666656494140625 0.0
+# obstacle 51
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+65.99999713897705 -83.66665887832642 0.0
+# obstacle 52
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+64.33332920074463 29.666671752929688 0.0
+# obstacle 53
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+-8.333336114883423 -84.999990940094 0.0
+# obstacle 54
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+49.33332920074463 21.000011444091797 0.0
+# obstacle 55
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+22.666665077209473 34.66667175292969 0.0
+# obstacle 56
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+55.00000476837158 -55.33332443237305 0.0
+# obstacle 57
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+111.66666889190674 -6.333324432373047 0.0
+# obstacle 58
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+41.333333015441895 -83.33332300186157 0.0
+# obstacle 59
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+109.99999713897705 14.666671752929688 0.0
+# obstacle 60
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+40.66666507720947 -50.33332824707031 0.0
+# obstacle 61
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+72.6666612625122 -20.99999237060547 0.0
+# obstacle 62
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+45.000000953674316 -10.333328247070312 0.0
+# obstacle 63
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+35.66666889190674 -17.999984741210938 0.0
+# obstacle 64
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+6.333340644836426 -8.333328247070312 0.0
+# obstacle 65
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+106.66667652130127 -53.33332443237305 0.0
+# obstacle 66
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+92.00001239776611 -6.999992370605469 0.0
+# obstacle 67
+# number of convex part
+1
+# convex part #0
+# number of vertices
+4
+# vertices
+11.333333 89.666664
+11.333333 88.333336
+12.666667 88.333336
+12.666667 89.666664
+#configuration
+97.33334827423096 14.333343505859375 0.0

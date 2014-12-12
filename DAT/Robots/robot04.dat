@@ -1,0 +1,143 @@
+#number of robots
+1
+# robot 0
+# number of convex part
+16
+# convex part #0
+# number of vertices
+4
+# vertices
+6.198143 -9.060211
+6.20549 -8.560265
+-2.043621 -8.439087
+-2.0509644 -8.9390335
+# convex part #1
+# number of vertices
+4
+# vertices
+6.256901 -5.060646
+6.264244 -4.5606995
+1.7647285 -4.4945984
+1.7573853 -4.994545
+# convex part #2
+# number of vertices
+4
+# vertices
+2.2646751 -4.5019455
+2.3013992 -2.0022125
+1.8014526 -1.994873
+1.7647285 -4.4945984
+# convex part #3
+# number of vertices
+4
+# vertices
+-1.5436745 -8.446426
+-1.4481964 -1.9471283
+-1.948143 -1.9397888
+-2.043621 -8.439087
+# convex part #4
+# number of vertices
+4
+# vertices
+-6.0 6.0
+-6.0 5.5
+-1.5 5.5
+-1.5 6.0
+# convex part #5
+# number of vertices
+4
+# vertices
+-2.0 5.5
+-2.0 3.0
+-1.5 3.0
+-1.5 5.5
+# convex part #6
+# number of vertices
+4
+# vertices
+1.75 9.5
+1.75 3.0
+2.25 3.0
+2.25 9.5
+# convex part #7
+# number of vertices
+4
+# vertices
+-4.474861 -5.9029236
+-3.9748802 -5.8988113
+-4.0119286 -1.3989639
+-4.5119095 -1.4030762
+# convex part #8
+# number of vertices
+4
+# vertices
+-4.0078125 -1.898941
+-1.5078964 -1.8783646
+-1.5120125 -1.3783798
+-4.0119286 -1.3989639
+# convex part #9
+# number of vertices
+4
+# vertices
+4.8682137 6.9165344
+4.368931 6.943283
+4.1282043 2.44973
+4.627487 2.4229813
+# convex part #10
+# number of vertices
+4
+# vertices
+4.154953 2.9490128
+1.6585312 3.0827484
+1.6317863 2.5834656
+4.1282043 2.44973
+# convex part #11
+# number of vertices
+4
+# vertices
+8.25 -2.0
+1.75 -2.0
+1.75 -2.5
+8.25 -2.5
+# convex part #12
+# number of vertices
+4
+# vertices
+8.25 -2.0
+8.25 7.0
+7.75 7.0
+7.75 -1.75
+# convex part #13
+# number of vertices
+4
+# vertices
+-8.019909 2.964096
+-1.5203362 3.038681
+-1.5260735 3.5386505
+-8.025646 3.464058
+# convex part #14
+# number of vertices
+4
+# vertices
+-8.048542 2.962082
+-7.887951 -6.0364914
+-7.388031 -6.027565
+-7.5441628 2.7210464
+# convex part #15
+# number of vertices
+4
+# vertices
+1.75 9.5
+-6.0 9.5
+-6.0 9.0
+1.75 9.0
+# initial configuraion
+96.0 21.0 180.0
+# goal configuration 
+13.0 108.0 0.0
+# number of control points
+2
+# control point #1
+0 0
+# control point #2
+3 0
