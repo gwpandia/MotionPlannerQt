@@ -4,6 +4,7 @@ This is a project for entering Intelligent Media Lab @ Department of Computer Sc
 Advisor is Tsai-Yen Li. 
 
 Warning:
+
 If you are a lab member of IM-Lab and who is considering do some copy and paste, I suggest you stop and write your own.
 You can refer or make yourself understand more of the algorithm instead of copy and paste. 
 Not even saying that Li is aware of this open source project here.
@@ -17,4 +18,5 @@ It can be speeded up by using Minkowski Sum to precompute those collided configu
 Dependencies:
 
 Qt 5 above (Linux, VC++, Mingw are all ok)
+
 Intel TBB
