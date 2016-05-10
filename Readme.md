@@ -19,4 +19,4 @@ Dependencies:
 
 Qt 5 above (Linux, VC++, Mingw are all ok)
 
-Intel TBB
+Intel Thread Building Block (TBB)
