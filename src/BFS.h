@@ -4,7 +4,9 @@
 #include "Constant.h"
 #include "PotentialField.h"
 #include <vector>
+#ifdef USE_TBB
 #include <tbb/tbb.h>
+#endif
 #include <map>
 
 namespace IMMP{
@@ -85,6 +87,7 @@ public:
 	Configuration config;
 };
 
+#ifdef USE_TBB
 class ApplyBuildTable{
 public:
 	ApplyBuildTable(BFS *bfs):bfs(bfs){
@@ -114,5 +117,6 @@ public:
 private:
 	BFS* bfs;
 };
+#endif
 
 };

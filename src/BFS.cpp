@@ -130,13 +130,19 @@ void BFS::initializePotentialField(){
 		*/
 	}
 }
-/*
+
+#ifndef USE_TBB
+
 void BFS::initializeVisitedTable(){
 	#pragma omp parallel for
 	for(int k = 0; k < Constant::ANGLESPACE; k++){
 		ObstacleBitmap obm(obstacles);
 		if(isUseCSpace()){
-			cspacePolygon.push_back(obm.drawCSpace(robot, Configuration(0.0, 0.0, k*360.0/Constant::ANGLESPACE)));
+//#ifdef USE_TBB
+            //cspacePolygon.push_back(obm.drawCSpace(robot, Configuration(0.0, 0.0, k*360.0/Constant::ANGLESPACE)));
+//#elif
+            cspacePolygon.insert(std::pair<int, std::vector<QPolygonF>>(k, obm.drawCSpace(robot, Configuration(0.0, 0.0, k*360.0/Constant::ANGLESPACE))));
+//#endif
 		}
 		for(int i = 0; i < Constant::XSPACE; i++){
 			for(int j = 0; j < Constant::YSPACE; j++){
@@ -151,11 +157,14 @@ void BFS::initializeVisitedTable(){
 		}
 	}
 }
-*/
+
+#elif
 
 void BFS::initializeVisitedTable(){
 	tbb::parallel_for(tbb::blocked_range<size_t>(0, Constant::ANGLESPACE), ApplyBuildTable(this));
 }
+
+#endif
 
 void BFS::bruteTestCollision(){
 	for(int i = 0; i < Constant::XSPACE; i++){

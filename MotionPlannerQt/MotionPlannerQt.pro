@@ -8,6 +8,11 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+# Uncomment this to use TBB
+#CONFIG += use_tbb_win32
+
+TBB_HOME = "Path/To/Your/TBB"
+
 TARGET = MotionPlannerQt
 TEMPLATE = app
 
@@ -68,6 +73,18 @@ DISTFILES += \
     ../src/im-logo2.png \
     ../src/im-logo2.ico \
     ../src/icon.rc
+
+use_tbb_win32 {
+    INCLUDEPATH += $$(TBB_HOME)/include
+    LIBS += $$(TBB_HOME)/lib/intel64/vc12 -ltbb
+    DEFINES += USE_TBB
+}
+
+use_tbb_linux {
+    INCLUDEPATH += $$(TBB_HOME)/include
+    LIBS += -ltbb
+    DEFINES += USE_TBB
+}
 
 #win32: LIBS += -L$$PWD/D:/LibrarySDK/atbb44_20160413oss/lib/intel64/vc14/ -ltbb
 
