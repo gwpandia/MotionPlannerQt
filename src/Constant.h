@@ -23,7 +23,8 @@ public:
 	static const bool NOTVISIT = false, VISIT = true;
 	static const double SPC;// = 800.0/128.0;
 	static const int potentialFieldCanvasScale = 2;
-	static const double PI;
+    //static const double PI;
+    static const double CONTROLPOINT_WEIGHT_MAX;
 };
 
 

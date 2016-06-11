@@ -38,8 +38,13 @@ MainFrame::MainFrame(IMMP::SimpleModel& s) : model(s)
 	obstacleComboBox->setFixedWidth(120);
 	robotComboBox = new QComboBox;
 	robotComboBox->setFixedWidth(120);
+    controlPointComboBox = new QComboBox;
+    controlPointComboBox->setFixedWidth(120);
+
+    controlPointWeightLineEdit = new QLineEdit;
+
 	obstacleComboBox->addItem(tr("Select Obstacles"));
-	/*obstacleComboBox->addItem(tr("map00.dat"));
+    /*obstacleComboBox->addItem(tr("map00.dat"));
 	obstacleComboBox->addItem(tr("map01.dat"));
 	obstacleComboBox->addItem(tr("map02.dat"));
 	obstacleComboBox->addItem(tr("map03.dat"));
@@ -58,6 +63,9 @@ MainFrame::MainFrame(IMMP::SimpleModel& s) : model(s)
 	robotComboBox->addItem(tr("robot06.dat"));
 	robotComboBox->addItem(tr("robot07.dat"));*/
 
+    controlPointComboBox->addItem(tr("Select Control Point Weight"));
+    controlPointWeightLineEdit->setValidator(new QDoubleValidator(0, Constant::CONTROLPOINT_WEIGHT_MAX, 2, this));
+
 	loadDATFiles();
 
 	isCspaceComboBox = new QCheckBox(tr("Use Cspace"));
@@ -72,9 +80,38 @@ MainFrame::MainFrame(IMMP::SimpleModel& s) : model(s)
 	QObject::connect(quitButton, SIGNAL(clicked()), this, SLOT(quit()));
 	QObject::connect(robotComboBox, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(loadRobot(const QString&)));
 	QObject::connect(obstacleComboBox, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(loadObstacle(const QString&)));
+    QObject::connect(controlPointComboBox, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
+                     this, [=](int index){
+                        bool isNoRobot = model.getRobots().empty();
+
+                        if(index == 0 || isNoRobot){
+                            controlPointWeightLineEdit->setText("");
+                            return;
+                        }
+
+                        const Robot& robot = model.getRobots().at(0);
+                        controlPointWeightLineEdit->setText(QString::number(robot.getControlPointWeight((size_t)index - 1)));
+                    });
+
+    QObject::connect(controlPointWeightLineEdit, &QLineEdit::textChanged, this, [=]
+    {
+        int currentIndex = controlPointComboBox->currentIndex();
+
+        if(currentIndex == 0 || model.getRobots().empty()){
+            return;
+        }
+
+        Robot& robot = model.getRobots().at(0);
+        robot.setControlPointWeight(currentIndex - 1, controlPointWeightLineEdit->text().toDouble());
+
+    });
+    QObject::connect(this, &MainFrame::ModelUpdated, this, [=]{ canvas->update(); });
 
 	rightPanel->addWidget(robotComboBox);
 	rightPanel->addWidget(obstacleComboBox);
+    rightPanel->addWidget(controlPointComboBox);
+    rightPanel->addWidget(new QLabel(tr("CP Weight: [0,10]")));
+    rightPanel->addWidget(controlPointWeightLineEdit);
 	rightPanel->addWidget(resetButton);
 	rightPanel->addWidget(findPathButton);
 	rightPanel->addWidget(isCspaceComboBox);
@@ -171,7 +208,8 @@ void MainFrame::loadRobot(const QString& str){
 	QString path(tr("DAT/Robots/"));
 	path.append(tr(str.toStdString().c_str()));
 	model.setRobots(IMMP::SceneReader::openRobotFile(QDir::toNativeSeparators(path).toStdString()));
-	canvas->update();
+    updateControlPointWeightComboBox();
+    Q_EMIT ModelUpdated();
 }
 
 void MainFrame::loadObstacle(const QString& str){
@@ -180,7 +218,24 @@ void MainFrame::loadObstacle(const QString& str){
 	QString path(tr("DAT/Obstacles/"));
 	path.append(tr(str.toStdString().c_str()));
 	model.setObstacles(IMMP::SceneReader::openObstacleFile(QDir::toNativeSeparators(path).toStdString()));
-	canvas->update();
+    Q_EMIT ModelUpdated();
+}
+
+void MainFrame::updateControlPointWeightComboBox()
+{
+    if (model.getRobots().empty())
+    {
+        return;
+    }
+
+    const Robot& robot = model.getRobots().at(0);
+
+    controlPointComboBox->clear();
+    controlPointComboBox->addItem(tr("Select Control Point Weight"));
+    for (size_t i = 0; i < robot.NControlPoints(); ++i)
+    {
+        controlPointComboBox->addItem("CP " + QString::number(i + 1));
+    }
 }
 
 void MainFrame::findPath(){
@@ -320,6 +375,8 @@ void MainFrame::setUIState(){
 	if(model.getState() == SimpleModel::STATE_FOUND){
 		robotComboBox->setEnabled(false);
 		obstacleComboBox->setEnabled(false);
+        controlPointComboBox->setEnabled(false);
+        controlPointWeightLineEdit->setEnabled(false);
 		findPathButton->setEnabled(false);
 		isCspaceComboBox->setEnabled(false);
 		showPotentialFieldButton->setEnabled(true);
@@ -333,6 +390,8 @@ void MainFrame::setUIState(){
 	else if(model.getState() == SimpleModel::STATE_NOTFOUND){
 		robotComboBox->setEnabled(true);
 		obstacleComboBox->setEnabled(true);
+        controlPointComboBox->setEnabled(true);
+        controlPointWeightLineEdit->setEnabled(true);
 		findPathButton->setEnabled(true);
 		isCspaceComboBox->setEnabled(true);
 		showPotentialFieldButton->setEnabled(true);
@@ -346,6 +405,8 @@ void MainFrame::setUIState(){
 	else if(model.getState() == SimpleModel::STATE_INIT){
 		robotComboBox->setEnabled(true);
 		obstacleComboBox->setEnabled(true);
+        controlPointComboBox->setEnabled(true);
+        controlPointWeightLineEdit->setEnabled(true);
 		findPathButton->setEnabled(true);
 		isCspaceComboBox->setEnabled(true);
 		showPotentialFieldButton->setEnabled(false);
@@ -359,6 +420,8 @@ void MainFrame::setUIState(){
 	else if(model.getState() == SimpleModel::STATE_FINDING){
 		robotComboBox->setEnabled(false);
 		obstacleComboBox->setEnabled(false);
+        controlPointComboBox->setEnabled(false);
+        controlPointWeightLineEdit->setEnabled(false);
 		findPathButton->setEnabled(false);
 		isCspaceComboBox->setEnabled(false);
 		showPotentialFieldButton->setEnabled(false);
@@ -372,6 +435,8 @@ void MainFrame::setUIState(){
 	else{
 		robotComboBox->setEnabled(false);
 		obstacleComboBox->setEnabled(false);
+        controlPointComboBox->setEnabled(false);
+        controlPointWeightLineEdit->setEnabled(false);
 		findPathButton->setEnabled(false);
 		isCspaceComboBox->setEnabled(false);
 		showPotentialFieldButton->setEnabled(false);

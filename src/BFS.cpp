@@ -44,9 +44,9 @@ std::vector<Configuration> BFS::findPath(){
 
 	QPolygonF boundary;
 	boundary.append(QPointF(0.0, 0.0));
-	boundary.append(QPointF(0.0, 128.0));
-	boundary.append(QPointF(128.0, 128.0));
-	boundary.append(QPointF(128.0, 0.0));
+    boundary.append(QPointF(0.0, Constant::BITMAPSIZE));
+    boundary.append(QPointF(Constant::BITMAPSIZE, Constant::BITMAPSIZE));
+    boundary.append(QPointF(Constant::BITMAPSIZE, 0.0));
 
 	while(!isEmptyStructure() && !SUCCESS){
 		BFSTree *x = getFirstNode();
@@ -215,9 +215,9 @@ int BFS::getPotentialValue(const Configuration& config){
 		int y = transPoint.y();
 		x = Util<int>::adjustRange(x, 0, Constant::BITMAPSIZE);
 		y = Util<int>::adjustRange(y, 0, Constant::BITMAPSIZE);
-		value += potentialFields.at(i).getPotentialValue(x, y);
+        value += (robot.getControlPointWeight(i) * potentialFields.at(i).getPotentialValue(x, y));
 	}
-	return value;
+    return value / robot.getTotalControlPointWeights();
 }
 
 bool BFS::isEmptyStructure() const {

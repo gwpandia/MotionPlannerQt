@@ -1,6 +1,7 @@
 #pragma once
 #include "Configuration.h"
 #include "ControlPoint.h"
+#include "Constant.h"
 #include <QtGui/QtGui>
 #include <vector>
 
@@ -29,13 +30,29 @@ public:
 		return goalConfig;
 	}
 
-	void addControlPoint(double x, double y){
+    void addControlPoint(double x, double y, double weight = 1.0){
 		controlPoints.push_back(ControlPoint(x, y));
+        controlPointWeights.push_back(weight);
+        totalControlPointWeights += weight;
 	}
 
 	ControlPoint getControlPoint(int i) const{
 		return controlPoints.at(i);
 	}
+
+    double getTotalControlPointWeights() const{
+        return totalControlPointWeights;
+    }
+
+    double getControlPointWeight(size_t i) const{
+        if(i >= controlPointWeights.size()){
+            return -1;
+        }
+
+        return controlPointWeights.at(i);
+    }
+
+    void setControlPointWeight(size_t i, double weight);
 
 	size_t NControlPoints() const{
 		return controlPoints.size();
@@ -45,7 +62,7 @@ public:
 		polygons.push_back(polygon);
 	}
 
-	QPolygonF getPolygonF(int i) const{
+    QPolygonF getPolygonF(size_t i) const{
 		return polygons.at(i);
 	}
 
@@ -58,7 +75,9 @@ private:
 	IMMP::Configuration initialConfig;
 	IMMP::Configuration goalConfig;
 	std::vector<IMMP::ControlPoint> controlPoints;
-	std::vector<QPolygonF> polygons;
+    std::vector<double> controlPointWeights;
+    std::vector<QPolygonF> polygons;
+    double totalControlPointWeights;
 };
 
 };

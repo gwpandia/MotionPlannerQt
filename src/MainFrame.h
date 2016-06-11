@@ -18,6 +18,9 @@ public:
 	void loadDATFiles();
 	void addComboBoxMenu(QComboBox*, const QString&);
 
+signals:
+    void ModelUpdated();
+
 private slots:
 	void loadRobot(const QString&);
 	void loadObstacle(const QString&);
@@ -29,6 +32,9 @@ private slots:
 	void showAnimation();
 	void smoothPath();
 	void quit();
+
+private:
+    void updateControlPointWeightComboBox();
 
 private:
 	QHBoxLayout *panel;
@@ -43,6 +49,8 @@ private:
 	QPushButton *quitButton;
 	QComboBox *obstacleComboBox;
 	QComboBox *robotComboBox;
+    QComboBox *controlPointComboBox;
+    QLineEdit *controlPointWeightLineEdit;
 	QCheckBox *isCspaceComboBox;
 	QLabel *authorLabel;
 	IMMP::MyCanvas* canvas;
