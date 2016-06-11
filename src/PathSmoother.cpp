@@ -22,7 +22,7 @@ std::vector<Configuration> PathSmoother::smooth(const std::vector<Configuration>
 	return path;
 }
 
-void PathSmoother::smoothHelper(int start, int end, std::vector<Configuration>& path, const std::vector<Configuration>& originPath){
+void PathSmoother::smoothHelper(size_t start, size_t end, std::vector<Configuration>& path, const std::vector<Configuration>& originPath){
 	if(start == end){
 		path.push_back(originPath.at(end));
 		return;
@@ -33,7 +33,7 @@ void PathSmoother::smoothHelper(int start, int end, std::vector<Configuration>& 
 		//tmpPath.push_back(originPath.at(end));
 		if(!checkAll(tmpPath)){
 			int bp = 2;// + rand() % 2;
-			int mid = (start+end)/bp;
+            size_t mid = (start+end)/bp;
 			smoothHelper(start, mid, path, originPath);
 			smoothHelper(mid+1, end, path, originPath);
 		}
@@ -45,7 +45,7 @@ void PathSmoother::smoothHelper(int start, int end, std::vector<Configuration>& 
 	}
 }
 
-void PathSmoother::generatePath(int steps, const Configuration& start, const Configuration& end, std::vector<Configuration>& path){
+void PathSmoother::generatePath(size_t steps, const Configuration& start, const Configuration& end, std::vector<Configuration>& path){
 	double dx = (end.getX() - start.getX()) / (double)steps;
 	double dy = (end.getY() - start.getY()) / (double)steps;
 	double da = (end.getTheta() - start.getTheta()) / (double)steps;

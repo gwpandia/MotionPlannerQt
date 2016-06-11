@@ -28,7 +28,7 @@ MainFrame::MainFrame(IMMP::SimpleModel& s) : model(s)
 	showPathButton = new QPushButton(tr("ShowPath"));
 	showPathButton->setFixedWidth(120);
 	showAnimationButton = new QPushButton(tr("ShowAnimation"));
-	showPathButton->setFixedWidth(120);
+    showAnimationButton->setFixedWidth(120);
 	smoothButton = new QPushButton(tr("Smooth"));
 	smoothButton->setFixedWidth(120);
 	quitButton = new QPushButton(tr("Quit"));
@@ -42,6 +42,7 @@ MainFrame::MainFrame(IMMP::SimpleModel& s) : model(s)
     controlPointComboBox->setFixedWidth(120);
 
     controlPointWeightLineEdit = new QLineEdit;
+    controlPointWeightLineEdit->setFixedWidth(120);
 
 	obstacleComboBox->addItem(tr("Select Obstacles"));
     /*obstacleComboBox->addItem(tr("map00.dat"));

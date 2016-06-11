@@ -117,8 +117,8 @@ QPolygonF ObstacleBitmap::minkowskiSums(const QPolygonF& polygonV, const QPolygo
 	int i = 0;
 	int j = 0;
 
-	int vSize = vertexV.size();
-	int wSize = vertexW.size();
+    size_t vSize = vertexV.size();
+    size_t wSize = vertexW.size();
 
 	do{
 		qreal x = vertexV.at(i%vSize).x() + vertexW.at(j%wSize).x();

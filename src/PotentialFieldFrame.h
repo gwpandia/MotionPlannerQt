@@ -20,7 +20,7 @@ private slots:
 		void updateTitle();
 
 private:
-	int index;
+    size_t index;
 	QPushButton *nextButton;
 	QPushButton *prevButton;
 	QHBoxLayout *bottomPanel;

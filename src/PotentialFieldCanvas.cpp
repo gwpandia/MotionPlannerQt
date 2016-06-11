@@ -21,7 +21,7 @@ void PotentialFieldCanvas::paintEvent(QPaintEvent *event){
 	QPen thinPen(palette().foreground(), 0.5);
 	QColor obsColor(255, 255, 0);
 
-	int delta = potentialField->getMaxVal() - potentialField->getMinVal();
+    //int delta = potentialField->getMaxVal() - potentialField->getMinVal();
 
 //	painter.setPen(thinPen);
 //	painter.setBrush(niceBlue);

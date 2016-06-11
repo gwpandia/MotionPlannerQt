@@ -14,8 +14,8 @@ public:
 
 private:
 	SimpleModel& model;
-	void smoothHelper(int, int, std::vector<Configuration>&, const std::vector<Configuration>&);
-	void generatePath(int, const Configuration&, const Configuration&, std::vector<Configuration>&);
+    void smoothHelper(size_t, size_t, std::vector<Configuration>&, const std::vector<Configuration>&);
+    void generatePath(size_t, const Configuration&, const Configuration&, std::vector<Configuration>&);
 	bool checkAll(const std::vector<Configuration>&)const;
 };
 

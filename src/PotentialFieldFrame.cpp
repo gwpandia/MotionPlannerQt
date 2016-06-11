@@ -37,8 +37,8 @@ PotentialFieldFrame::~PotentialFieldFrame(void)
 
 void PotentialFieldFrame::updateTitle(){
 	std::string title = "Potential Field, CP: ";
-	title += Util<int>::toString(index+1) + "/";
-	title += Util<int>::toString(model.getPotentialFields().size());
+    title += Util<size_t>::toString(index+1) + "/";
+    title += Util<size_t>::toString(model.getPotentialFields().size());
 	setWindowTitle(tr(title.c_str()));
 }
 
@@ -51,11 +51,13 @@ void PotentialFieldFrame::nextControlPoint(){
 }
 
 void PotentialFieldFrame::prevControlPoint(){
-	--index;
-	if(index < 0){
+    if(index == 0){
 		index = model.getPotentialFields().size() - 1;
 	}
-	index %= model.getPotentialFields().size();
+    else{
+        --index;
+        index %= model.getPotentialFields().size();
+    }
 	canvas->setPotentialField(&model.getPotentialFields().at(index));
 	updateTitle();
 	canvas->update();
