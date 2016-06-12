@@ -157,9 +157,11 @@ MainFrame::~MainFrame(void)
     delete controlPointWeightLineEdit;
 	delete canvas;
 	delete rightPanel;
-
 	delete potentialFieldFrame;
 	delete visitedFrame;
+
+    QObject::disconnect(controlPointComboBox);
+    QObject::disconnect(controlPointWeightLineEdit);
 
 }
 
