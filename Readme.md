@@ -13,6 +13,7 @@ Change Log:
 
 2016/06/12
 - Add control point weight feature, you can set the weights in the user interface.
+- Canvas shows control points now and highlight the selected one.
 - Fix size_t / int warnings, and layout issue.
 - QtCreator config now can build without Intel TBB. See pro file.
 
