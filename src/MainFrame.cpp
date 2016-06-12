@@ -153,6 +153,8 @@ MainFrame::~MainFrame(void)
 	delete resetButton;
 	delete obstacleComboBox;
 	delete robotComboBox;
+    delete controlPointComboBox;
+    delete controlPointWeightLineEdit;
 	delete canvas;
 	delete rightPanel;
 
