@@ -9,8 +9,9 @@
 
 using namespace IMMP;
 
-MyCanvas::MyCanvas(std::vector<Robot>& robots, std::vector<Obstacle>& obstacles):robots(robots), obstacles(obstacles), 
-	type(Constant::NONE), lock(false), tempI(-1), path(NULL), drawPath(false), showAnimation(false), animateConfig(NULL), lockMouseOperation(false)
+MyCanvas::MyCanvas(std::vector<Robot>& robots, std::vector<Obstacle>& obstacles):robots(robots), obstacles(obstacles)
+    , type(Constant::NONE), lock(false), tempI(-1), path(NULL), drawPath(false)
+  , showAnimation(false), animateConfig(NULL), lockMouseOperation(false), currentControlPoint(SIZE_MAX)
 {
 	setMouseTracking(false);
 	mb = Qt::NoButton;
@@ -50,10 +51,10 @@ void MyCanvas::paintEvent(QPaintEvent *event){
 
 
 
-	for(int i = 0; i < robots.size(); i++){
-		for(int j = 0; j < robots.at(i).NPolygons(); j++){
+    for(size_t i = 0; i < robots.size(); i++){
+        for(size_t j = 0; j < robots.at(i).NPolygons(); j++){
 			if(drawPath && (path != NULL)){
-				for(int k = 0; k < path -> size(); k++){
+                for(size_t k = 0; k < path -> size(); k++){
 					QPolygon transPolygon3(CoordinateTransform::toCanvasPoints(robots.at(i).getPolygonF(j), path -> at(k), Constant::SWP, Constant::SPC));
 					painter.setBrush(QColor(255, 255, 255));
 					painter.drawPolygon(transPolygon3);
@@ -67,12 +68,28 @@ void MyCanvas::paintEvent(QPaintEvent *event){
 			}
 
 			QPolygon transPolygon1(CoordinateTransform::toCanvasPoints(robots.at(i).getPolygonF(j), robots.at(i).getInitialConfiguration(), Constant::SWP, Constant::SPC));
-			painter.setBrush(QColor(255, 255, 0));
+            painter.setBrush(QColor(255, 255, 0));
 			painter.drawPolygon(transPolygon1);
 			QPolygon transPolygon2(CoordinateTransform::toCanvasPoints(robots.at(i).getPolygonF(j), robots.at(i).getGoalConfiguration(), Constant::SWP, Constant::SPC));
-			painter.setBrush(QColor(255, 0, 0));
+            painter.setBrush(QColor(255, 0, 0));
 			painter.drawPolygon(transPolygon2);
 		}
+
+        for(size_t j = 0; j < robots.at(i).NControlPoints(); ++j){
+            QPointF cpF(robots.at(i).getControlPoint(j).getX(), robots.at(i).getControlPoint(j).getY());
+            QPoint initCP(CoordinateTransform::toCanvasPoint(cpF, robots.at(i).getInitialConfiguration(), Constant::SWP, Constant::SPC));
+            QPoint goalCP(CoordinateTransform::toCanvasPoint(cpF, robots.at(i).getGoalConfiguration(), Constant::SWP, Constant::SPC));
+
+            if(currentControlPoint == j){
+                painter.setBrush(QColor(255, 255, 255));
+                painter.drawEllipse(initCP, 4, 4);
+                painter.drawEllipse(goalCP, 4, 4);
+            }
+
+            painter.setBrush(QColor(0, 0, 0));
+            painter.drawEllipse(initCP, 2, 2);
+            painter.drawEllipse(goalCP, 2, 2);
+        }
 	}
 
 	painter.setBrush(QColor(0, 0, 0));

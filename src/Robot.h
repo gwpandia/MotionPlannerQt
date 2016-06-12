@@ -36,7 +36,7 @@ public:
         totalControlPointWeights += weight;
 	}
 
-	ControlPoint getControlPoint(int i) const{
+    ControlPoint getControlPoint(size_t i) const{
 		return controlPoints.at(i);
 	}
 

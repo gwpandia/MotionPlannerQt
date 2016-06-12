@@ -42,6 +42,10 @@ public:
 		message = str;
 	}
 
+    void setSelectedControlPoint(size_t nCP){
+        currentControlPoint = nCP;
+    }
+
 protected:
 	void paintEvent(QPaintEvent *event);
 	void mousePressEvent(QMouseEvent *event);
@@ -67,7 +71,7 @@ private:
 	bool drawPath;
 	bool showAnimation;
 	const Configuration *animateConfig;
-
+    size_t currentControlPoint;
 	QString message;
 };
 

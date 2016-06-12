@@ -87,11 +87,15 @@ MainFrame::MainFrame(IMMP::SimpleModel& s) : model(s)
 
                         if(index == 0 || isNoRobot){
                             controlPointWeightLineEdit->setText("");
+                            canvas->setSelectedControlPoint(SIZE_MAX);
+                            Q_EMIT ModelUpdated();
                             return;
                         }
 
                         const Robot& robot = model.getRobots().at(0);
                         controlPointWeightLineEdit->setText(QString::number(robot.getControlPointWeight((size_t)index - 1)));
+                        canvas->setSelectedControlPoint((size_t)index - 1);
+                        Q_EMIT ModelUpdated();
                     });
 
     QObject::connect(controlPointWeightLineEdit, &QLineEdit::textChanged, this, [=]
