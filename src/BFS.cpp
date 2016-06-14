@@ -158,7 +158,7 @@ void BFS::initializeVisitedTable(){
 	}
 }
 
-#elif
+#else
 
 void BFS::initializeVisitedTable(){
 	tbb::parallel_for(tbb::blocked_range<size_t>(0, Constant::ANGLESPACE), ApplyBuildTable(this));
