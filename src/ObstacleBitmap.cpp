@@ -41,12 +41,12 @@ void ObstacleBitmap::initialBitMap(){
 
 std::vector<QPolygonF> ObstacleBitmap::drawCSpace(const Robot& robot, const Configuration& config){
 	std::vector<QPolygonF> ret;
-	for (int i = 0; i < obstacles.size(); i++){
-		for(int j = 0; j < obstacles.at(i).NPolygons(); j++){
+	for (size_t i = 0; i < obstacles.size(); i++){
+		for(size_t j = 0; j < obstacles.at(i).NPolygons(); j++){
 
 			QPolygonF transObstacle(CoordinateTransform::toPlannerPoints(obstacles.at(i).getPolygonF(j), obstacles.at(i).getInitialConfiguration(), Constant::SWP));
 			
-			for(int k = 0; k < robot.NPolygons(); k++){
+			for(size_t k = 0; k < robot.NPolygons(); k++){
 				QPolygonF transRobot(minusPolygon(QPolygonF(CoordinateTransform::toPlannerPoints(robot.getPolygonF(k), config, Constant::SWP))));
 				//qDebug() << "robot: " << transRobot;
 				//qDebug() << "Obstacle: " << transObstacle;
@@ -79,7 +79,7 @@ std::vector<QPolygonF> ObstacleBitmap::drawCSpace(const Robot& robot, const Conf
 	right.push_back(QPointF(Constant::BITMAPSIZE+1, Constant::BITMAPSIZE));
 	right.push_back(QPointF(Constant::BITMAPSIZE, Constant::BITMAPSIZE));
 
-	for(int k = 0; k < robot.NPolygons(); k++){
+	for(size_t k = 0; k < robot.NPolygons(); k++){
 		QPolygonF transRobot(CoordinateTransform::toPlannerPoints(robot.getPolygonF(k), config, Constant::SWP));
 		QPolygonF result1 = minkowskiSums(top, transRobot);
 		QPolygonF result2 = minkowskiSums(bottom, transRobot);
@@ -201,7 +201,7 @@ int ObstacleBitmap::findFirstVertex(const QPolygonF& polygon)const{
 	qreal minX = DBL_MAX;
 	int ret = -1;
 
-	for(int i = 0; i < tmp.size(); i++){
+	for(size_t i = 0; i < tmp.size(); i++){
 		if(polygon.at(tmp.at(i)).x() < minX){
 			minX = polygon.at(tmp.at(i)).x();
 			ret = tmp.at(i);
@@ -212,8 +212,8 @@ int ObstacleBitmap::findFirstVertex(const QPolygonF& polygon)const{
 }
 
 void ObstacleBitmap::drawObstacles(){
-	for (int i = 0; i < obstacles.size(); i++){
-		for(int j = 0; j < obstacles.at(i).NPolygons(); j++){
+	for (size_t i = 0; i < obstacles.size(); i++){
+		for(size_t j = 0; j < obstacles.at(i).NPolygons(); j++){
 			QPolygonF transPolygon(CoordinateTransform::toPlannerPoints(obstacles.at(i).getPolygonF(j), obstacles.at(i).getInitialConfiguration(), Constant::SWP));
 			drawObstacle(transPolygon);
 		}

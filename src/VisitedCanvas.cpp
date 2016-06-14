@@ -28,15 +28,15 @@ void VisitedCanvas::paintEvent(QPaintEvent * event){
 		painter.setBrush(QColor(0, 0, 0));
 		painter.drawRect(0, 0, 400, 400);
 		painter.setBrush(QColor(255, 0, 0));
-		for(int i = 0; i < model.getCSpacePolygon().at(angle).size(); i++){
+		for(size_t i = 0; i < model.getCSpacePolygon().at(angle).size(); i++){
 			QPolygon transPolygon(CoordinateTransform::toCanvasPoints(model.getCSpacePolygon().at(angle).at(i), Configuration(0, 0, 0), Constant::SWP, Constant::SPC));
 			painter.drawPolygon(transPolygon);
 		}
 
 		painter.setBrush(QColor(255, 255, 0));
 
-		for(int i = 0; i < model.getObstacles().size(); i++){
-			for(int j = 0; j < model.getObstacles().at(i).NPolygons(); j++){
+		for(size_t i = 0; i < model.getObstacles().size(); i++){
+			for(size_t j = 0; j < model.getObstacles().at(i).NPolygons(); j++){
 				QPolygon transPolygon(CoordinateTransform::toCanvasPoints(model.getObstacles().at(i).getPolygonF(j), model.getObstacles().at(i).getInitialConfiguration(), Constant::SWP, Constant::SPC));
 				painter.drawPolygon(transPolygon);
 

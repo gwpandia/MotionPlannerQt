@@ -35,10 +35,10 @@ bool CollisionDetector::isCollide(const QPolygonF& cur, const QPolygonF& test){
 
 bool CollisionDetector::isRobotCollide(const Robot& robot, const Configuration& config, const std::vector<Obstacle>& obstacles){
 	//int sum = 0;
-	for(int i = 0; i < robot.NPolygons(); i++){
+	for(size_t i = 0; i < robot.NPolygons(); i++){
 		QPolygonF curPolygon(CoordinateTransform::toPlannerPoints(robot.getPolygonF(i), config, Constant::SWP));
-		for(int j = 0; j < obstacles.size(); j++){
-			for(int k = 0; k < obstacles.at(j).NPolygons(); k++){
+		for(size_t j = 0; j < obstacles.size(); j++){
+			for(size_t k = 0; k < obstacles.at(j).NPolygons(); k++){
 				QPolygonF testPolygon(CoordinateTransform::toPlannerPoints(obstacles.at(j).getPolygonF(k), obstacles.at(j).getInitialConfiguration(), Constant::SWP));
 				if(isCollide(curPolygon, testPolygon)){
 					return true;
@@ -55,7 +55,7 @@ bool CollisionDetector::isRobotCollide(const Robot& robot, const Configuration& 
 }
 
 bool CollisionDetector::isAllCollide(const std::vector<Robot>& robots, const std::vector<Obstacle>& obstacles){
-	for(int i = 0; i < robots.size(); i++){
+	for(size_t i = 0; i < robots.size(); i++){
 		if(isRobotCollide(robots.at(i), robots.at(i).getInitialConfiguration(), obstacles)){
 			return true;
 		}

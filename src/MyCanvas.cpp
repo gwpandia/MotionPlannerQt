@@ -38,8 +38,8 @@ void MyCanvas::paintEvent(QPaintEvent *event){
 	painter.setPen(thinPen);
 	painter.setBrush(niceBlue);
 
-	for(int i = 0; i < obstacles.size(); i++){
-		for(int j = 0; j < obstacles.at(i).NPolygons(); j++){
+	for(size_t i = 0; i < obstacles.size(); i++){
+		for(size_t j = 0; j < obstacles.at(i).NPolygons(); j++){
 			QPolygon transPolygon(CoordinateTransform::toCanvasPoints(obstacles.at(i).getPolygonF(j), obstacles.at(i).getInitialConfiguration(), Constant::SWP, Constant::SPC));
 			painter.drawPolygon(transPolygon);
 			

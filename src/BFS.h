@@ -72,11 +72,11 @@ private:
 	bool useCSpace;
 	bool visited[Constant::XSPACE][Constant::YSPACE][Constant::ANGLESPACE];
 	bool cspace[Constant::XSPACE][Constant::YSPACE][Constant::ANGLESPACE];
+    const Robot& robot;
+    const std::vector<Obstacle>& obstacles;
 	std::vector< std::vector<BFSTree*> > cstructures;
 	std::vector< std::vector<BFSTree*> > c_pools;
 	std::vector<PotentialField> potentialFields;
-	const Robot& robot;
-	const std::vector<Obstacle>& obstacles;
 };
 
 class BFSTree{

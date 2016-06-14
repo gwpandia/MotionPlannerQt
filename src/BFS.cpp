@@ -57,9 +57,9 @@ std::vector<Configuration> BFS::findPath(){
 			
 			bool outOfBound = false;
 			
-			for(int j = 0; j < robot.NPolygons(); j++){
+			for(size_t j = 0; j < robot.NPolygons(); j++){
 				QPolygonF cmpPolygon(IMMP::CoordinateTransform::toPlannerPoints(robot.getPolygonF(j), co, IMMP::Constant::SWP));
-				for(int k = 0; k < cmpPolygon.size(); k++){
+				for(size_t k = 0; k < cmpPolygon.size(); k++){
 					if(!boundary.containsPoint(cmpPolygon.at(k), Qt::OddEvenFill)){
 						outOfBound = true;
 						break;
@@ -78,7 +78,7 @@ std::vector<Configuration> BFS::findPath(){
 					xnew = new BFSTree(co, x);
 					insertToStructure(getPotentialValue(co), xnew);
 					visited[(int)co.getX()][(int)co.getY()][(int)(co.getTheta()/360.0*Constant::ANGLESPACE)] = true;
-					if(std::abs(getPotentialValue(co) - getPotentialValue(robot.getGoalConfiguration())) <= robot.NControlPoints()){
+					if((size_t)std::abs(getPotentialValue(co) - getPotentialValue(robot.getGoalConfiguration())) <= robot.NControlPoints()){
 						goal = xnew;
 						SUCCESS = true;
 					}
@@ -102,7 +102,7 @@ std::vector<Configuration> BFS::findPath(){
 }
 
 void BFS::initializePotentialField(){
-	for(int i = 0; i < robot.NControlPoints(); i++){
+	for(size_t i = 0; i < robot.NControlPoints(); i++){
 		ObstacleBitmap obm(obstacles);
 		obm.drawObstacles();
 		double x = robot.getControlPoint(i).getX();
@@ -141,7 +141,7 @@ void BFS::initializeVisitedTable(){
 //#ifdef USE_TBB
             //cspacePolygon.push_back(obm.drawCSpace(robot, Configuration(0.0, 0.0, k*360.0/Constant::ANGLESPACE)));
 //#elif
-            cspacePolygon.insert(std::pair<int, std::vector<QPolygonF>>(k, obm.drawCSpace(robot, Configuration(0.0, 0.0, k*360.0/Constant::ANGLESPACE))));
+            cspacePolygon.insert(std::pair< int, std::vector<QPolygonF> >(k, obm.drawCSpace(robot, Configuration(0.0, 0.0, k*360.0/Constant::ANGLESPACE))));
 //#endif
 		}
 		for(int i = 0; i < Constant::XSPACE; i++){
@@ -179,15 +179,15 @@ void BFS::bruteTestCollision(){
 	}
 }
 
-void BFS::insertToStructure(int index, BFSTree* node){
-	if(index >= 0 && index < cstructures.size()){
+void BFS::insertToStructure(size_t index, BFSTree* node){
+	if(index < cstructures.size()){
 		cstructures.at(index).push_back(node);
 		c_pools.at(index).push_back(node);
 	}
 }
 
-void BFS::removeFromStructure(int index){
-	if(index >= 0 && index < cstructures.size()){
+void BFS::removeFromStructure(size_t index){
+	if(index < cstructures.size()){
 		if(!cstructures.at(index).empty()){
 			cstructures.at(index).erase(cstructures.at(index).begin());
 		}
@@ -195,7 +195,7 @@ void BFS::removeFromStructure(int index){
 }
 
 BFSTree* BFS::getFirstNode(){
-	for(int i = 0; i < cstructures.size(); i++){
+	for(size_t i = 0; i < cstructures.size(); i++){
 		if(!cstructures.at(i).empty()){
 			BFSTree* node = cstructures.at(i).at(0);
 			//visited[(int)node->config.getX()][(int)node->config.getY()][(int)(node->config.getTheta()/Constant::ANGLESPACE)] = true;
@@ -208,7 +208,7 @@ BFSTree* BFS::getFirstNode(){
 
 int BFS::getPotentialValue(const Configuration& config){
 	int value = 0;
-	for(int i = 0; i < robot.NControlPoints(); i++){
+	for(size_t i = 0; i < robot.NControlPoints(); i++){
 		QPointF point(robot.getControlPoint(i).getX(), robot.getControlPoint(i).getY());
 		QPointF transPoint = CoordinateTransform::toPlannerPoint(point, config, Constant::SWP);
 		int x = transPoint.x();
@@ -221,7 +221,7 @@ int BFS::getPotentialValue(const Configuration& config){
 }
 
 bool BFS::isEmptyStructure() const {
-	for(int i = 0; i < cstructures.size(); i++){
+	for(size_t i = 0; i < cstructures.size(); i++){
 		if(!cstructures.at(i).empty()){
 			return false;
 		}
@@ -230,8 +230,8 @@ bool BFS::isEmptyStructure() const {
 }
 
 void BFS::destroyCStructure(){
-	for(int i = 0; i < c_pools.size(); i++){
-		for(int j = 0; j < c_pools.at(i).size(); j++){
+	for(size_t i = 0; i < c_pools.size(); i++){
+		for(size_t j = 0; j < c_pools.at(i).size(); j++){
 			delete c_pools.at(i).at(j);
 		}
 	}
