@@ -95,15 +95,15 @@ public:
 	}
 
 	void operator()(const tbb::blocked_range<size_t>& r) const{
-		for(int k = r.begin(); k < r.end(); k++){
+		for(size_t k = r.begin(); k < r.end(); k++){
 			ObstacleBitmap obm(bfs->getObstacles());
 			if(bfs->isUseCSpace()){
 				bfs->cspacePolygon[k] = obm.drawCSpace(bfs->getRobot(), Configuration(0.0, 0.0, k*360.0/Constant::ANGLESPACE));
 			}
 			for(int i = 0; i < Constant::XSPACE; i++){
 				for(int j = 0; j < Constant::YSPACE; j++){
-					bfs->setVisit(i, j, k, false);
-					bfs->setCSpace(i, j, k, false);
+					bfs->setVisit(i, j, (int)k, false);
+					bfs->setCSpace(i, j, (int)k, false);
 					if(bfs->isUseCSpace()){
 						if(obm.bitMapAt(i, j) == Constant::OBST){
 							bfs->setCSpace(i, j, k, true);
