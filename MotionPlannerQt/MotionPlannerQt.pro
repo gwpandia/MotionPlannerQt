@@ -8,10 +8,10 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+TBB_HOME = "/Path/To/Your/TBB"
+
 # Uncomment this to use TBB
 #CONFIG += use_tbb_win32
-
-TBB_HOME = "Path/To/Your/TBB"
 
 CONFIG += c++11
 
@@ -77,14 +77,14 @@ DISTFILES += \
     ../src/icon.rc
 
 use_tbb_win32 {
-    INCLUDEPATH += $$(TBB_HOME)/include
-    LIBS += $$(TBB_HOME)/lib/intel64/vc12 -ltbb
+    INCLUDEPATH += $$TBB_HOME/include
+    LIBS += -L$$TBB_HOME/lib/intel64/vc12 -ltbb
     DEFINES += USE_TBB
 }
 
 use_tbb_linux {
-    INCLUDEPATH += $$(TBB_HOME)/include
-    LIBS += -ltbb
+    INCLUDEPATH += $$TBB_HOME/include
+    LIBS += -L$$TBB_HOME/lib/inel64/gcc4.4 -ltbb
     DEFINES += USE_TBB
 }
 
