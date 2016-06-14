@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	a.setApplicationDisplayName(QString("Motion Planner with Qt5"));
 	a.setApplicationName(QString("Motion Planner"));
 	a.setApplicationVersion(QString("1.0"));
-	a.setWindowIcon(QIcon("im-logo2.png"));
+	a.setWindowIcon(QIcon(":/imlogo/im-logo2.png"));
 	//QtMotionPlanner w;
 
 
