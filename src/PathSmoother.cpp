@@ -38,7 +38,7 @@ void PathSmoother::smoothHelper(size_t start, size_t end, std::vector<Configurat
 			smoothHelper(mid+1, end, path, originPath);
 		}
 		else{
-			for(int i = 0; i < tmpPath.size(); i++){
+			for(size_t i = 0; i < tmpPath.size(); i++){
 				path.push_back(tmpPath.at(i));
 			}
 		}
@@ -50,7 +50,7 @@ void PathSmoother::generatePath(size_t steps, const Configuration& start, const 
 	double dy = (end.getY() - start.getY()) / (double)steps;
 	double da = (end.getTheta() - start.getTheta()) / (double)steps;
 
-	for(int i = 0; i <= steps; i++){
+	for(size_t i = 0; i <= steps; i++){
 		double xi = start.getX() + i * dx;
 		double yi = start.getY() + i * dy;
 		double ai = start.getTheta() + i * da;
@@ -60,7 +60,7 @@ void PathSmoother::generatePath(size_t steps, const Configuration& start, const 
 }
 
 bool PathSmoother::checkAll(const std::vector<Configuration>& path)const{
-	for(int i = 0; i < path.size(); i++){
+	for(size_t i = 0; i < path.size(); i++){
 		if(!model.getCSpacePolygon().empty()){
 			int x = (int)(path.at(i).getX() + 0.5);
 			int y = (int)(path.at(i).getY() + 0.5);

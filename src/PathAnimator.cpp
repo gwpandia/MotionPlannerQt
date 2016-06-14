@@ -20,7 +20,7 @@ void PathAnimator::run(){
 		return;
 	}
 
-	for(int i = 0; i < path->size() && !stopped; i++){
+	for(size_t i = 0; i < path->size() && !stopped; i++){
 		canvas->setAnimateConfig(&path->at(i));
 		canvas->update();
 		QThread::msleep(10);

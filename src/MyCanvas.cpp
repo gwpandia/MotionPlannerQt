@@ -157,8 +157,8 @@ void MyCanvas::mouseReleaseEvent(QMouseEvent *event){
 }
 
 int MyCanvas::clickedOnWhichRobots(QMouseEvent *event){
-	for(int i = 0; i < robots.size(); i++){
-		for(int j = 0; j < robots.at(i).NPolygons(); j++){
+	for(size_t i = 0; i < robots.size(); i++){
+		for(size_t j = 0; j < robots.at(i).NPolygons(); j++){
 			QPolygonF transPolygon1(CoordinateTransform::toPlannerPoints(robots.at(i).getPolygonF(j), robots.at(i).getInitialConfiguration(), Constant::SWP));
 			QPolygonF transPolygon2(CoordinateTransform::toPlannerPoints(robots.at(i).getPolygonF(j), robots.at(i).getGoalConfiguration(), Constant::SWP));
 
@@ -180,8 +180,8 @@ int MyCanvas::clickedOnWhichRobots(QMouseEvent *event){
 }
 
 int MyCanvas::clickedOnWhichObstacles(QMouseEvent *event){
-	for(int i = 0; i < obstacles.size(); i++){
-		for(int j = 0; j < obstacles.at(i).NPolygons(); j++){
+	for(size_t i = 0; i < obstacles.size(); i++){
+		for(size_t j = 0; j < obstacles.at(i).NPolygons(); j++){
 			QPolygonF transPolygon1(CoordinateTransform::toPlannerPoints(obstacles.at(i).getPolygonF(j), obstacles.at(i).getInitialConfiguration(), Constant::SWP));
 			if(transPolygon1.containsPoint(QPointF(((double)event->x())/Constant::SPC, (((double)Constant::HC-event->y()))/Constant::SPC), Qt::OddEvenFill)){
 				foundConfig = obstacles.at(i).getInitialConfiguration();
