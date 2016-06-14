@@ -13,6 +13,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TBB_HOME = "Path/To/Your/TBB"
 
+CONFIG += c++11
+
 TARGET = MotionPlannerQt
 TEMPLATE = app
 
