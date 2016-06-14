@@ -61,8 +61,8 @@ private:
 	void initializeVisitedTable();
 	void bruteTestCollision();
 
-	void insertToStructure(int, BFSTree*);
-	void removeFromStructure(int);
+	void insertToStructure(size_t, BFSTree*);
+	void removeFromStructure(size_t);
 	BFSTree* getFirstNode();
 	int getPotentialValue(const Configuration&);
 	bool isEmptyStructure()const;

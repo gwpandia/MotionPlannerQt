@@ -59,7 +59,7 @@ std::vector<Configuration> BFS::findPath(){
 			
 			for(size_t j = 0; j < robot.NPolygons(); j++){
 				QPolygonF cmpPolygon(IMMP::CoordinateTransform::toPlannerPoints(robot.getPolygonF(j), co, IMMP::Constant::SWP));
-				for(size_t k = 0; k < cmpPolygon.size(); k++){
+				for(int k = 0; k < cmpPolygon.size(); k++){
 					if(!boundary.containsPoint(cmpPolygon.at(k), Qt::OddEvenFill)){
 						outOfBound = true;
 						break;
